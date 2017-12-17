@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FE03FE91FE6AEA100FB50FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE03FE81FE6AEA100FB50FA /* AppDelegate.m */; };
+		2FE03FEC1FE6AEA100FB50FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE03FEB1FE6AEA100FB50FA /* ViewController.m */; };
+		2FE03FEF1FE6AEA100FB50FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FE03FED1FE6AEA100FB50FA /* Main.storyboard */; };
+		2FE03FF11FE6AEA100FB50FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FE03FF01FE6AEA100FB50FA /* Assets.xcassets */; };
+		2FE03FF41FE6AEA100FB50FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FE03FF21FE6AEA100FB50FA /* LaunchScreen.storyboard */; };
+		2FE03FF71FE6AEA100FB50FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE03FF61FE6AEA100FB50FA /* main.m */; };
+		2FE040191FE6AF6600FB50FA /* UIColor+Tweak.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE040001FE6AF6600FB50FA /* UIColor+Tweak.m */; };
+		2FE0401A1FE6AF6600FB50FA /* UIScrollView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE040021FE6AF6600FB50FA /* UIScrollView+Extension.m */; };
+		2FE0401B1FE6AF6600FB50FA /* UIView+circleCover.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE040041FE6AF6600FB50FA /* UIView+circleCover.m */; };
+		2FE0401C1FE6AF6600FB50FA /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE040061FE6AF6600FB50FA /* UIView+Extension.m */; };
+		2FE0401D1FE6AF6600FB50FA /* YRCropPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE040091FE6AF6600FB50FA /* YRCropPhotoViewController.m */; };
+		2FE0401E1FE6AF6600FB50FA /* YRMathTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE0400C1FE6AF6600FB50FA /* YRMathTool.m */; };
+		2FE0401F1FE6AF6600FB50FA /* YRCropCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE0400F1FE6AF6600FB50FA /* YRCropCorner.m */; };
+		2FE040201FE6AF6600FB50FA /* YRCropPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE040111FE6AF6600FB50FA /* YRCropPhotoView.m */; };
+		2FE040211FE6AF6600FB50FA /* YRCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE040131FE6AF6600FB50FA /* YRCropView.m */; };
+		2FE040221FE6AF6600FB50FA /* YRPhotoContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE040151FE6AF6600FB50FA /* YRPhotoContentView.m */; };
+		2FE040231FE6AF6600FB50FA /* YRPhotoScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE040171FE6AF6600FB50FA /* YRPhotoScrollView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2FE03FE41FE6AEA100FB50FA /* YRCropPhotoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YRCropPhotoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FE03FE71FE6AEA100FB50FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2FE03FE81FE6AEA100FB50FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2FE03FEA1FE6AEA100FB50FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2FE03FEB1FE6AEA100FB50FA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2FE03FEE1FE6AEA100FB50FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FE03FF01FE6AEA100FB50FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FE03FF31FE6AEA100FB50FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2FE03FF51FE6AEA100FB50FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FE03FF61FE6AEA100FB50FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2FE03FFF1FE6AF6600FB50FA /* UIColor+Tweak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Tweak.h"; sourceTree = "<group>"; };
+		2FE040001FE6AF6600FB50FA /* UIColor+Tweak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Tweak.m"; sourceTree = "<group>"; };
+		2FE040011FE6AF6600FB50FA /* UIScrollView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+Extension.h"; sourceTree = "<group>"; };
+		2FE040021FE6AF6600FB50FA /* UIScrollView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Extension.m"; sourceTree = "<group>"; };
+		2FE040031FE6AF6600FB50FA /* UIView+circleCover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+circleCover.h"; sourceTree = "<group>"; };
+		2FE040041FE6AF6600FB50FA /* UIView+circleCover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+circleCover.m"; sourceTree = "<group>"; };
+		2FE040051FE6AF6600FB50FA /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		2FE040061FE6AF6600FB50FA /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		2FE040081FE6AF6600FB50FA /* YRCropPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRCropPhotoViewController.h; sourceTree = "<group>"; };
+		2FE040091FE6AF6600FB50FA /* YRCropPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRCropPhotoViewController.m; sourceTree = "<group>"; };
+		2FE0400B1FE6AF6600FB50FA /* YRMathTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRMathTool.h; sourceTree = "<group>"; };
+		2FE0400C1FE6AF6600FB50FA /* YRMathTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRMathTool.m; sourceTree = "<group>"; };
+		2FE0400E1FE6AF6600FB50FA /* YRCropCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRCropCorner.h; sourceTree = "<group>"; };
+		2FE0400F1FE6AF6600FB50FA /* YRCropCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRCropCorner.m; sourceTree = "<group>"; };
+		2FE040101FE6AF6600FB50FA /* YRCropPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRCropPhotoView.h; sourceTree = "<group>"; };
+		2FE040111FE6AF6600FB50FA /* YRCropPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRCropPhotoView.m; sourceTree = "<group>"; };
+		2FE040121FE6AF6600FB50FA /* YRCropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRCropView.h; sourceTree = "<group>"; };
+		2FE040131FE6AF6600FB50FA /* YRCropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRCropView.m; sourceTree = "<group>"; };
+		2FE040141FE6AF6600FB50FA /* YRPhotoContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRPhotoContentView.h; sourceTree = "<group>"; };
+		2FE040151FE6AF6600FB50FA /* YRPhotoContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRPhotoContentView.m; sourceTree = "<group>"; };
+		2FE040161FE6AF6600FB50FA /* YRPhotoScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRPhotoScrollView.h; sourceTree = "<group>"; };
+		2FE040171FE6AF6600FB50FA /* YRPhotoScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRPhotoScrollView.m; sourceTree = "<group>"; };
+		2FE040181FE6AF6600FB50FA /* YRCropDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRCropDefine.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FE03FE11FE6AEA100FB50FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FE03FDB1FE6AEA100FB50FA = {
+			isa = PBXGroup;
+			children = (
+				2FE03FE61FE6AEA100FB50FA /* YRCropPhotoDemo */,
+				2FE03FE51FE6AEA100FB50FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FE03FE51FE6AEA100FB50FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FE03FE41FE6AEA100FB50FA /* YRCropPhotoDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FE03FE61FE6AEA100FB50FA /* YRCropPhotoDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2FE03FE71FE6AEA100FB50FA /* AppDelegate.h */,
+				2FE03FE81FE6AEA100FB50FA /* AppDelegate.m */,
+				2FE03FEA1FE6AEA100FB50FA /* ViewController.h */,
+				2FE03FEB1FE6AEA100FB50FA /* ViewController.m */,
+				2FE03FED1FE6AEA100FB50FA /* Main.storyboard */,
+				2FE03FFD1FE6AF6600FB50FA /* class */,
+				2FE03FF01FE6AEA100FB50FA /* Assets.xcassets */,
+				2FE03FF21FE6AEA100FB50FA /* LaunchScreen.storyboard */,
+				2FE03FF51FE6AEA100FB50FA /* Info.plist */,
+				2FE03FF61FE6AEA100FB50FA /* main.m */,
+			);
+			path = YRCropPhotoDemo;
+			sourceTree = "<group>";
+		};
+		2FE03FFD1FE6AF6600FB50FA /* class */ = {
+			isa = PBXGroup;
+			children = (
+				2FE03FFE1FE6AF6600FB50FA /* category */,
+				2FE040071FE6AF6600FB50FA /* controller */,
+				2FE0400A1FE6AF6600FB50FA /* Tool */,
+				2FE0400D1FE6AF6600FB50FA /* view */,
+				2FE040181FE6AF6600FB50FA /* YRCropDefine.h */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
+		2FE03FFE1FE6AF6600FB50FA /* category */ = {
+			isa = PBXGroup;
+			children = (
+				2FE03FFF1FE6AF6600FB50FA /* UIColor+Tweak.h */,
+				2FE040001FE6AF6600FB50FA /* UIColor+Tweak.m */,
+				2FE040011FE6AF6600FB50FA /* UIScrollView+Extension.h */,
+				2FE040021FE6AF6600FB50FA /* UIScrollView+Extension.m */,
+				2FE040031FE6AF6600FB50FA /* UIView+circleCover.h */,
+				2FE040041FE6AF6600FB50FA /* UIView+circleCover.m */,
+				2FE040051FE6AF6600FB50FA /* UIView+Extension.h */,
+				2FE040061FE6AF6600FB50FA /* UIView+Extension.m */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		2FE040071FE6AF6600FB50FA /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				2FE040081FE6AF6600FB50FA /* YRCropPhotoViewController.h */,
+				2FE040091FE6AF6600FB50FA /* YRCropPhotoViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		2FE0400A1FE6AF6600FB50FA /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				2FE0400B1FE6AF6600FB50FA /* YRMathTool.h */,
+				2FE0400C1FE6AF6600FB50FA /* YRMathTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		2FE0400D1FE6AF6600FB50FA /* view */ = {
+			isa = PBXGroup;
+			children = (
+				2FE0400E1FE6AF6600FB50FA /* YRCropCorner.h */,
+				2FE0400F1FE6AF6600FB50FA /* YRCropCorner.m */,
+				2FE040101FE6AF6600FB50FA /* YRCropPhotoView.h */,
+				2FE040111FE6AF6600FB50FA /* YRCropPhotoView.m */,
+				2FE040121FE6AF6600FB50FA /* YRCropView.h */,
+				2FE040131FE6AF6600FB50FA /* YRCropView.m */,
+				2FE040141FE6AF6600FB50FA /* YRPhotoContentView.h */,
+				2FE040151FE6AF6600FB50FA /* YRPhotoContentView.m */,
+				2FE040161FE6AF6600FB50FA /* YRPhotoScrollView.h */,
+				2FE040171FE6AF6600FB50FA /* YRPhotoScrollView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FE03FE31FE6AEA100FB50FA /* YRCropPhotoDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FE03FFA1FE6AEA100FB50FA /* Build configuration list for PBXNativeTarget "YRCropPhotoDemo" */;
+			buildPhases = (
+				2FE03FE01FE6AEA100FB50FA /* Sources */,
+				2FE03FE11FE6AEA100FB50FA /* Frameworks */,
+				2FE03FE21FE6AEA100FB50FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YRCropPhotoDemo;
+			productName = YRCropPhotoDemo;
+			productReference = 2FE03FE41FE6AEA100FB50FA /* YRCropPhotoDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FE03FDC1FE6AEA100FB50FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = yangrui;
+				TargetAttributes = {
+					2FE03FE31FE6AEA100FB50FA = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2FE03FDF1FE6AEA100FB50FA /* Build configuration list for PBXProject "YRCropPhotoDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FE03FDB1FE6AEA100FB50FA;
+			productRefGroup = 2FE03FE51FE6AEA100FB50FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FE03FE31FE6AEA100FB50FA /* YRCropPhotoDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FE03FE21FE6AEA100FB50FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FE03FF41FE6AEA100FB50FA /* LaunchScreen.storyboard in Resources */,
+				2FE03FF11FE6AEA100FB50FA /* Assets.xcassets in Resources */,
+				2FE03FEF1FE6AEA100FB50FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FE03FE01FE6AEA100FB50FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FE03FEC1FE6AEA100FB50FA /* ViewController.m in Sources */,
+				2FE0401E1FE6AF6600FB50FA /* YRMathTool.m in Sources */,
+				2FE040201FE6AF6600FB50FA /* YRCropPhotoView.m in Sources */,
+				2FE040221FE6AF6600FB50FA /* YRPhotoContentView.m in Sources */,
+				2FE03FF71FE6AEA100FB50FA /* main.m in Sources */,
+				2FE040191FE6AF6600FB50FA /* UIColor+Tweak.m in Sources */,
+				2FE0401C1FE6AF6600FB50FA /* UIView+Extension.m in Sources */,
+				2FE0401F1FE6AF6600FB50FA /* YRCropCorner.m in Sources */,
+				2FE0401A1FE6AF6600FB50FA /* UIScrollView+Extension.m in Sources */,
+				2FE0401B1FE6AF6600FB50FA /* UIView+circleCover.m in Sources */,
+				2FE040211FE6AF6600FB50FA /* YRCropView.m in Sources */,
+				2FE040231FE6AF6600FB50FA /* YRPhotoScrollView.m in Sources */,
+				2FE0401D1FE6AF6600FB50FA /* YRCropPhotoViewController.m in Sources */,
+				2FE03FE91FE6AEA100FB50FA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2FE03FED1FE6AEA100FB50FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FE03FEE1FE6AEA100FB50FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2FE03FF21FE6AEA100FB50FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FE03FF31FE6AEA100FB50FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FE03FF81FE6AEA100FB50FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2FE03FF91FE6AEA100FB50FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FE03FFB1FE6AEA100FB50FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AP2R8WPL7H;
+				INFOPLIST_FILE = YRCropPhotoDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gsdgsdfgsdg.twertwer.twer.erte;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FE03FFC1FE6AEA100FB50FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AP2R8WPL7H;
+				INFOPLIST_FILE = YRCropPhotoDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gsdgsdfgsdg.twertwer.twer.erte;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FE03FDF1FE6AEA100FB50FA /* Build configuration list for PBXProject "YRCropPhotoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FE03FF81FE6AEA100FB50FA /* Debug */,
+				2FE03FF91FE6AEA100FB50FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FE03FFA1FE6AEA100FB50FA /* Build configuration list for PBXNativeTarget "YRCropPhotoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FE03FFB1FE6AEA100FB50FA /* Debug */,
+				2FE03FFC1FE6AEA100FB50FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FE03FDC1FE6AEA100FB50FA /* Project object */;
+}
